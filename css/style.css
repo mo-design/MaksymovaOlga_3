@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+  background-color: #f9f9f9;
+  font-family: Sans-serif, Verdana, Arial, Helvetica;
+  font-size: 14px;
+  line-height: 2;
+  color: #2c2c2c;
+}
+
+
+.wrapper {
+  width: 1060px;
+  margin: auto;
+  padding: 47px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.9);
+ }
+
+
+header p {
+  margin-bottom: 20px;
+}
+
+/*---------------------------- TOP MENU ------------------------------------*/
+
+
+ul.topmenu {
+  list-style: none;
+  width: 100%;
+  height: 44px;
+  margin: 10px 0px 40px 0px;
+  background: #505050; /* Для старых браузеров */
+  background: linear-gradient(to top, #404040, #5e5e5e);
+  border: 1px solid #4d4c4c;
+}
+
+
+ul.topmenu li {
+  display: inline-block;
+  vertical-align: middle;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
+
+ul.topmenu li a {
+  padding: 0px 60px 0px 60px;
+  color: white;
+  text-decoration: none;
+  line-height: 44px;
+}
+
+
+ul.topmenu li a:hover {
+  display: inline-block;
+  height: 44px;
+  padding: 0px 59px 0px 59px;
+  background: #393939; /* Для старых браузеров */
+  background: linear-gradient(to top, #2f2f2f, #4a4a4a);
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  color: white;
+  text-decoration: none;
+}
+
+
+/*--------------------------- SIDEBAR ------------------------------------*/
+
+
+ul.sidebar {
+  list-style: none;
+}
+
+
+ul.sidebar li {  
+  width: 238px;
+  border: 1px solid #c8c8c8;
+}
+
+
+ul.sidebar li a {
+  display: inline-block;
+  width: 198px;
+  font: 14px/40px Sans-serif, Verdana, Arial, Helveticasans-serif;
+  padding-left: 24px;
+  text-decoration: none;
+  color: #656363;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+ul.sidebar li a:hover {
+  padding-left: 40px;
+  background-color: #f9f9f9;
+  color: #2c2c2c;
+}
+
+
+/*------------------------------------- CONTENT ------------------------------------*/
+
+
+article {
+  float: right;
+  width: 70%;
+}
+
+
+.tovar_pic {
+  width: 100%;
+  margin: 0px auto 20px auto;
+  padding: 30px 0px;
+  border: 1px solid #c8c8c8;
+  text-align: center;
+}
+
+.tovar_text {
+  padding: 20px 15px 50px 15px;
+}
+
+/*--------------------FOOTER------------------------------------*/
+
+.cleaner {
+  clear: both;
+}
+
+
+footer {
+  width: 100%;
+  height: 44px;
+  margin: 50px 0px 50px 0px;
+  background: #e1e1e1;
+}
+
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+
+footer ul li a {
+  padding: 0px 60px 0px 60px;
+  color: #2c2c2c;
+  text-decoration: none;
+  line-height: 44px;
+}
+
+
+footer li a:hover {
+  text-decoration: underline;
+}
+
+
+footer p{
+  float: right;
+  margin: 9px 26px;
+}
